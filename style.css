@@ -1,0 +1,67 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    list-style: none;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.text {
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://www.w3schools.com/w3images/hamburger.jpg');
+}
+
+.text h3 {
+    color: black;
+    opacity: .6;
+    font-size: 36px;
+    margin:  10px 0;
+    padding: 12px;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+
+}
+
+.myH1 {
+    letter-spacing: 5px;
+    font-size: 36px;
+}
+
+.myH2 {
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.hero2 h5 {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.hero2 p {
+    font-size: 15px;
+    color: #757575;
+
+}
+
+.contact {
+    font-size: 13px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #f1f1f1;
+}
